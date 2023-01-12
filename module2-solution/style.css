@@ -108,18 +108,18 @@
         grid-template-columns: auto;
       }
       .chicken{
-        width: fit-content;
+        width: 70vw;
         
       }
       .sushi{
         position: relative;
         left: 30px;
-        width: 652px;
+        width: 70vw;
         top: 20px;
         
       }
       .beef{
-        width: fit-content;
+        width: 70vw;
         
         
       }
