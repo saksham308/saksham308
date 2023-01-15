@@ -1,0 +1,33 @@
+.nav-link{
+    font-size: large;
+}
+.text-center{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: 100;
+    
+}
+body{
+    background-color: darkred;
+}
+.chicken{
+    font-size: 25px;
+    text-emphasis:inherit;
+    text-align: center;
+}
+.two{
+    background-color: lightslategrey;
+}
+.sushi{
+    font-size: 25px;
+    text-emphasis:inherit;
+    text-align: center;
+}
+.beef{
+    font-size: 25px;
+    text-emphasis:inherit;
+    text-align: center;
+}
