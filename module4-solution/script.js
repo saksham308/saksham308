@@ -38,8 +38,8 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
-for (/* fill in parts of the 'for' loop to loop over names array */) {
-
+for (let i=0;i<names.length;i++) {
+      var firstLetter=names[i].charAt(0).toLowerCase
   // STEP 11:
   // Retrieve the first letter of the current name in the loop.
   // Use the string object's 'charAt' function. Since we are looking for
@@ -54,7 +54,7 @@ for (/* fill in parts of the 'for' loop to loop over names array */) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (/* fill in condition here */) {
+  if (firstLetter==='j') {
     // byeSpeaker.xxxx
   } else {
     // helloSpeaker.xxxx
